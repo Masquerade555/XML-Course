@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--Open it in Edge or Internet Explorer-->
+
+<!DOCTYPE BOOK[
+<!ELEMENT BOOK (Title, Author, Year)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+]>
+
+<BOOK>
+<Title>Splinter Cell Rainbow</Title>
+<Author>Tom Clancy</Author>
+<Year>2000</Year>
+</BOOK>
+
+<?xml-stylesheet href="basic.css" type="text/css"?>
